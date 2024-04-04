@@ -27,10 +27,10 @@ class ContentCheckerTest(unittest.TestCase):
         page_title = self.driver.title
 
         # Check if the title contains the word "Swag"
-        if "Swag" in page_title:
-            result = "Pass"
+        if "SwagsPage" in page_title:
+            result = "Title of the web page found"
         else:
-            result = "Fail"
+            result = "Title of the web page not found"
 
         # Print the result
         print("Title check result:", result)
