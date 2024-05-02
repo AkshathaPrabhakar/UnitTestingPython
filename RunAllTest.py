@@ -8,7 +8,7 @@ from swagtest_6 import InvalidLoginTest
 from swagtest_7 import AddToCartTest
 from swagtest_8 import ShoppingCartTest
 
-
+## This is sample code to test the code changes difference ##
 def suite():
     loader = unittest.TestLoader()
     test_suite = unittest.TestSuite()
